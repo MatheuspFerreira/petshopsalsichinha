@@ -1,0 +1,195 @@
+@font-face {
+       
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/raleway/v26/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCFPrEHJA.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+
+body{
+    background-color:#E8DAB2;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+}
+
+
+header {
+    position: relative;
+    padding-left: 60px;
+    height: 100vh;
+}
+
+
+h1 {
+    font-size: 26px;
+    font-family: 'Raleway';
+    font-style: italic;
+    margin: 0%;
+    margin-top: 150px;
+    padding-top: 200px;
+    
+}
+
+h2 {
+    font-family: 'Raleway';
+    font-size: 52px;
+    margin: 0;
+
+}
+
+.salchichinha {
+    max-width: 370px;
+    max-height: 192px;
+    position: relative;
+    left: 80%;
+    bottom: 120px;
+
+}
+
+
+
+
+main{
+    background-color: white;
+    max-width: 800px;
+    padding: 34px 24px 15px 24px;
+    margin-left: 30%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px #000;
+}
+
+
+h3{
+    font-size: 30px;
+    font-family: 'Raleway';
+}
+
+p, li{
+    font-family: 'Raleway';
+    font-size: 18px;
+}
+
+.hotdog {
+    width: calc(800px - 30px);
+    padding-left: 15px;
+}
+
+iframe {
+    border: none;
+}
+
+footer {
+    background-color: #090909;
+    width: 100%;
+    height: 35px;
+    padding: 16px;
+    position: fixed;
+    bottom: 0px;
+}
+
+h4{
+    font-family: 'Raleway';
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    padding-left: 70%;
+    
+}
+
+a{
+    color: #35b1d2;
+}
+
+@media screen and (max-width: 480px){
+
+    
+    header {
+        height: 80vh;
+    }
+    
+    
+    h1 {
+        font-size: 18px;
+        position: relative;
+        bottom: 150px;
+        right: 15px;
+
+    }
+
+    h2 {
+        font-size: 30px;
+        position: relative;
+        bottom: 150px;
+        right: 15px;
+
+    }
+
+    .salchichinha {
+        width: 70%;
+        left: 5%;
+        bottom: 60px;
+    }
+
+    
+    main {  
+        position: relative;
+        right: 14.8%;
+
+    }
+
+    h3 {
+        font-size: 25px;
+
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .hotdog {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    iframe {
+        width: 100%;
+
+    }
+
+    h4 {
+        padding-left: 7%;
+        font-size: 11px;
+        margin: 0;
+
+    }
+
+    
+
+
+
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+ 
